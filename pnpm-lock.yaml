@@ -8,15 +8,12 @@ importers:
 
   .:
     dependencies:
-      react:
-        specifier: ^19.0.0
-        version: 19.0.0
       webpack:
         specifier: 5.91.0
         version: 5.91.0(webpack-cli@6.0.1)
     devDependencies:
       webpack-cli:
-        specifier: ^6.0.1
+        specifier: 6.0.1
         version: 6.0.1(webpack@5.91.0)
 
 packages:
@@ -384,10 +381,6 @@ packages:
 
   randombytes@2.1.0:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
-
-  react@19.0.0:
-    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
-    engines: {node: '>=0.10.0'}
 
   rechoir@0.8.0:
     resolution: {integrity: sha512-/vxpCXddiX8NGfGO/mTafwjq4aFa/71pvamip0++IQk3zG8cbCj0fifNPrjjF1XMXUne91jL9OoxmdykoEtifQ==}
@@ -868,8 +861,6 @@ snapshots:
   randombytes@2.1.0:
     dependencies:
       safe-buffer: 5.2.1
-
-  react@19.0.0: {}
 
   rechoir@0.8.0:
     dependencies:

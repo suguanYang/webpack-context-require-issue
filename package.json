@@ -1,0 +1,12 @@
+{
+	"name": "syf-webpack-external-resolve",
+	"scripts": {
+		"build": "webpack"
+	},
+	"dependencies": {
+		"webpack": "5.91.0"
+	},
+	"devDependencies": {
+		"webpack-cli": "6.0.1"
+	}
+}
